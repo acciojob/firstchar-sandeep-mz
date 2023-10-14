@@ -9,7 +9,7 @@ function firstChar(text) {
     return firstLetter;
   } else {
     // Return an empty string if there are no words
-    return "";
+    return " ";
   }
 }
 
