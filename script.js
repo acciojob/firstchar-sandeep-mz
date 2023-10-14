@@ -1,14 +1,13 @@
 function firstChar(text) {
   // your code here
-  const words = text.trim().split(" ");
+   input = input.trim();
 
-  // Check if there are any words in the input
-  if (words.length > 0) {
-    // Extract the first letter of the first word
-    const firstLetter = words[0][0];
-    return firstLetter;
+  // Check if the trimmed input is not empty
+  if (input !== "") {
+    // Return the first character of the trimmed input
+    return input[0];
   } else {
-    // Return an empty string if there are no words
+    // If the trimmed input is empty, return an empty string
     return "";
   }
 }
